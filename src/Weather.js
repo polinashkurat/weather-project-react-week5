@@ -17,8 +17,6 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       city: response.data.name,
     });
-
-    setReady(true);
   }
 
   if (weatherData.ready) {
